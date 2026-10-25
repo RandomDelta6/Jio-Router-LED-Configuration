@@ -17,13 +17,11 @@ USB Activity Trigger: Provides a visual notification (blinking violet) when /tmp
 
 # Installation
 
-Openwrt 25.12+ expected.Run the following command in your OpenWrt SSH terminal to download, configure, and start the service automatically:
+Openwrt 25.12+ expected. Run the following command in your OpenWrt SSH terminal to download, configure, and start the service automatically:
 
 *Login to router using SSH and run the following commands*
 
     apk update 
-    
     apk add curl bash
-
     apk upgrade
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/RandomDelta6/Jio-Router-LED-Configuration/refs/heads/main/installerscript.sh)"
