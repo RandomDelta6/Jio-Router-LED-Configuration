@@ -1,4 +1,4 @@
-# Script for ARGB LED control on Jio AX6000 
+# Jio AX6000 ARGB Status LED Control
 A lightweight, automated system service for JIDU AX6000 6J01 and 6J11 device family Jio Airfiber AX6000 Wifi Routers running OpenWRT that provides real-time LED status indication based on active internet connectivity, automatic Ethernet-to-USB-tethering failover, and a scheduled night-mode blackout.
 
 # Features
@@ -17,8 +17,7 @@ USB Activity Trigger: Provides a visual notification (blinking violet) when /tmp
 
 # Installation
 
-Openwrt 25.12+ Expected.
-Run the following command in your OpenWrt SSH terminal to download, configure, and start the service automatically:
+Openwrt 25.12+ expected.Run the following command in your OpenWrt SSH terminal to download, configure, and start the service automatically:
 
 *Login to router using SSH and run the following commands*
 
@@ -27,5 +26,4 @@ Run the following command in your OpenWrt SSH terminal to download, configure, a
     apk add curl bash
 
     apk upgrade
-
- sh -c "$(curl -fsSL https://raw.githubusercontent.com/RandomDelta6/Jio-Router-LED-Configuration/refs/heads/main/installerscript.sh)"
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/RandomDelta6/Jio-Router-LED-Configuration/refs/heads/main/installerscript.sh)"
